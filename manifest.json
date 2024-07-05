@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "aily-connector",
+    "description": "aily 连接器，从boe 同步到online",
+    "version": "1.0",
+    "action": {
+      "default_popup": "./dist/index.html"
+    },
+    "permissions": [ "scripting", "declarativeNetRequest", "declarativeNetRequestFeedback", "storage", "tabs", "activeTab", "contextMenus", "cookies", "webRequest", "browsingData" ],
+
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*",
+      "*://*/*"
+    ]
+  }

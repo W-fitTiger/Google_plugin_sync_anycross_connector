@@ -1,0 +1,50 @@
+{
+  "name": "google_-plugin_sync_anycross_connector",
+  "version": "1.0.0",
+  "description": "同步anycross 连接器",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "INLINE_RUNTIME_CHUNK=false tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W-fitTiger/Google_-plugin_sync_anycross_connector.git"
+  },
+  "author": "wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/W-fitTiger/Google_-plugin_sync_anycross_connector/issues"
+  },
+  "homepage": "https://github.com/W-fitTiger/Google_-plugin_sync_anycross_connector#readme",
+  "dependencies": {
+    "antd": "^5.18.3",
+    "axion": "^0.1.0",
+    "axios": "^1.7.2",
+    "core-js": "^3.37.1",
+    "less": "^4.2.0",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  },
+  "eslintConfig": {
+    "globals": {
+      "chrome": true
+    }
+  }
+}
